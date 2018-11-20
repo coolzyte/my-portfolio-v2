@@ -12,17 +12,19 @@
   transition: transform 0.3s ease-out;
 }
 
-a,
-a.active {
+.SideDrawer a,
+.SideDrawer a.active {
   color: #303030 !important;
 }
 
-a:hover {
+.SideDrawer a:hover {
   color: rgba(#303030, 0.8);
 }
 
 @media (min-width: 500px) {
-  display: none;
+  .SideDrawer {
+    display: none;
+  }
 }
 
 .Open {
@@ -35,5 +37,5 @@ a:hover {
 
 .Logo {
   height: 11%;
-  margin-bottom: 1.2rem;
+  margin-bottom: 3.2rem;
 }
