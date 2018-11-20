@@ -1,0 +1,9 @@
+.social-menu li a {
+  margin-left: 15px;
+  margin-bottom: 0;
+  color: #989898;
+}
+
+.social-menu:hover {
+  color: #0f151d;
+}
