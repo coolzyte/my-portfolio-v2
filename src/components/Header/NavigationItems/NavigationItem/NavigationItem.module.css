@@ -1,0 +1,39 @@
+.NavigationItem {
+  margin: 1rem 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+a:hover,
+a:active,
+a.active {
+  color: #fff;
+}
+
+@media (min-width: 500px) {
+  margin: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: auto;
+  a {
+    height: 100%;
+    padding: 1.2rem 1rem;
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+  }
+  a:hover,
+  a:active,
+  a.active {
+    background: rgba(#0f151d, 0.3);
+  }
+}
