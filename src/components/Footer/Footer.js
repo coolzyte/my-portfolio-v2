@@ -2,11 +2,12 @@ import React from "react";
 import Social from "../Social/Social";
 import "./Footer.module.css";
 import PageTitle from "../Title/Title";
+import classes from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className="footer p-tb">
-      <div className="section-title wrapper footer__container">
+    <footer className={classes.Footer}>
+      <div className={classes.Container}>
         <PageTitle
           heading="CoolZyte"
           desc="But I must explain to you how all this mistaken idea of denouncing
@@ -14,12 +15,12 @@ const Footer = () => {
           account of the monen vai kemon asen"
         />
       </div>
-      <div className="footer__bottom wrapper flex-item">
-        <div className="copyright">
+      <div className={classes.Bottom}>
+        <div className={classes.Copyright}>
           &copy; All Rights Reserved By
           <a href="http://coolzyte.com">Coolzyte</a>
         </div>
-        <ul className="footer__social social-menu flex-item">
+        <ul className={classes.SocialMenu}>
           <Social />
         </ul>
       </div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Aux from "../../hoc/Aux";
 import Toolbar from "../Toolbar/Toolbar";
 import SideDrawer from "../Toolbar/SideDrawer/SideDrawer";
+import Footer from "../Footer/Footer";
 import classes from "./Layout.module.css";
 
 class Layout extends Component {
@@ -25,7 +26,8 @@ class Layout extends Component {
           open={this.state.showSideDrawer}
           closed={this.sideDrawerClosedHandler}
         />
-        <main className={classes.Content}>{this.props.children}</main>
+        <main className={classes.Container}>{this.props.children}</main>
+        <Footer />
       </Aux>
     );
   }

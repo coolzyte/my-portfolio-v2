@@ -1,5 +1,4 @@
 import React from "react";
-import "./Social.module.css";
 import Aux from "../../hoc/Aux";
 
 const Social = () => {
