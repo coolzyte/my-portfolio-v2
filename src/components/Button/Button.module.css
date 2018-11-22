@@ -1,0 +1,51 @@
+.Btn {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #303030;
+  color: #303030;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Btn:hover {
+  background: #303030;
+  color: #fff;
+}
+
+.Btn .Send {
+  color: #fff;
+  background: #303030;
+  border: 1px solid transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem !important;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-top: 2rem;
+  padding: 0.8rem 2.5rem 0.7rem;
+}
+
+.Btn .Send:hover {
+  background: transparent;
+  color: #303030;
+  border-color: #303030;
+}
+
+.Btn .Card {
+  color: #ededed;
+  background: transparent;
+  border: 1px solid #ededed;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem !important;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  margin-top: 2rem;
+  padding: 0.8rem 2.5rem 0.7rem;
+}
+
+.Btn .Card:hover {
+  color: #fff;
+  border-color: #fff;
+}

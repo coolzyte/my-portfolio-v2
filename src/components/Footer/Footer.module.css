@@ -21,7 +21,7 @@
 
 .Footer h2 {
   display: inline-block;
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 3.2rem;
   margin-bottom: 2rem;
@@ -29,20 +29,35 @@
 }
 
 .Footer p {
-  width: 57%;
+  width: auto;
   margin: auto;
   padding: 0 1.6rem;
+}
+
+@media (min-width: 500px) {
+  .Footer h2 {
+    font-size: 3.2rem;
+  }
+  .Footer p {
+    width: 57%;
+  }
 }
 
 .Footer .Bottom {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+}
+
+@media (min-width: 500px) {
+  .Footer .Bottom {
+    justify-content: space-between;
+  }
 }
 
 .Footer .Bottom li a:hover {
@@ -56,6 +71,13 @@
 
 .Footer .SocialMenu {
   display: flex;
+  margin-top: 2rem;
+}
+
+@media (min-width: 500px) {
+  .Footer .SocialMenu {
+    margin-top: 0;
+  }
 }
 
 .Footer .SocialMenu li a {

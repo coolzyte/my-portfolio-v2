@@ -1,0 +1,161 @@
+.Hero {
+  grid-column: full-start / full-end;
+  background: #ededed;
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .Hero {
+    height: 100vh;
+  }
+  .Hero h5 {
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .Hero {
+    height: 100vh;
+  }
+}
+
+.Hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 500px) {
+  .Hero h1 {
+    font-size: 5rem;
+    line-height: 8.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.Hero h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+@media (min-width: 500px) {
+  .Hero h2 {
+    font-size: 3.4rem;
+    line-height: 3rem;
+  }
+}
+
+.Hero span {
+  margin-left: 1rem;
+}
+
+.Hero h5 {
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+  word-spacing: 0;
+}
+
+@media (min-width: 500px) {
+  .Hero h5 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: 0.6rem;
+    margin-bottom: 1rem;
+    word-spacing: 0.5rem;
+  }
+}
+
+.Hero .SocialMenu {
+  display: flex;
+  z-index: 13;
+  margin-top: 2rem;
+}
+
+@media (min-width: 500px) {
+  .Hero .SocialMenu {
+    position: absolute;
+    bottom: 7.5rem;
+    right: 7.5rem;
+    z-index: 13;
+    margin-top: 0;
+  }
+}
+
+.Hero .SocialMenu li a {
+  margin-left: 15px;
+  margin-bottom: 0;
+  color: #989898;
+}
+
+.Hero .SocialMenu li a:hover {
+  color: #0f151d;
+}
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+
+b {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+b.is-visible {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+.no-js b {
+  opacity: 0;
+}
+
+.no-js b.is-visible {
+  opacity: 1;
+}
+
+/* -------------------------------- 
+
+xclip 
+
+-------------------------------- */
+
+.cd-headline.clip .cd-words-wrapper .cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #303030;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline.clip b.is-visible {
+  opacity: 1;
+}
