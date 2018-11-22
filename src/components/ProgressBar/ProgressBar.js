@@ -4,8 +4,19 @@ import classes from "./ProgressBar.module.css";
 
 const ProgressBar = props => {
   return (
-    <div className={classes.ProgressBar}>
-      <Filler percentage={props.percentage} />
+    <div>
+      <div>
+        <span>UX DESIGN</span>
+        <div className={classes.ProgressBar}>
+          <Filler percentage={props.percentage} />
+        </div>
+      </div>
+      <div>
+        <span>UI DESIGN</span>
+        <div className={classes.ProgressBar}>
+          <Filler percentage={props.percentage} />
+        </div>
+      </div>
     </div>
   );
 };

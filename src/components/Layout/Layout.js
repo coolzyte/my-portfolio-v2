@@ -7,8 +7,7 @@ import classes from "./Layout.module.css";
 
 class Layout extends Component {
   state = {
-    showSideDrawer: false,
-    percentage: 0
+    showSideDrawer: false
   };
   sideDrawerClosedHandler = () => {
     this.setState({ showSideDrawer: false });
@@ -19,6 +18,7 @@ class Layout extends Component {
       return { showSideDrawer: !prevState.showSideDrawer };
     });
   };
+
   render() {
     return (
       <Aux>
