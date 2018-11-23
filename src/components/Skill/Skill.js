@@ -41,7 +41,16 @@ class Skill extends Component {
             <Button name="Download CV" />
           </div>
           <div className={classes.ProgressBar}>
-            <ProgressBar percentage={this.state.percentage} />
+            <ProgressBar title="UX Design" percentage={this.state.percentage} />
+            <ProgressBar title="UI Design" percentage={this.state.percentage} />
+            <ProgressBar
+              title="Web Development"
+              percentage={this.state.percentage}
+            />
+            <ProgressBar
+              title="SEO Support"
+              percentage={this.state.percentage}
+            />
           </div>
         </div>
       </section>
