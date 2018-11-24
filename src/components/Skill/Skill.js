@@ -8,7 +8,12 @@ class Skill extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      percentage: 80
+      progressbar: [
+        { title: "UX Design", percentage: 85 },
+        { title: "UI Design", percentage: 90 },
+        { title: "Web Design", percentage: 75 },
+        { title: "Web Development", percentage: 90 }
+      ]
     };
   }
   render() {
@@ -32,7 +37,7 @@ class Skill extends Component {
               great explorer of the truth, the master-builder of human
               happiness. No one rejects, dislikes, or avoids pleasure itself
             </p>
-            <p>
+            <p className="m-bottom-2">
               Imust explain to you how all this mistaken idea of denouncing
               pleasure and praising pain was born and I will give you a complete
               account of the system, and expound the actual teachings of the
@@ -41,15 +46,21 @@ class Skill extends Component {
             <Button name="Download CV" />
           </div>
           <div className={classes.ProgressBar}>
-            <ProgressBar title="UX Design" percentage={this.state.percentage} />
-            <ProgressBar title="UI Design" percentage={this.state.percentage} />
             <ProgressBar
-              title="Web Development"
-              percentage={this.state.percentage}
+              title={this.state.progressbar[0].title}
+              percentage={this.state.progressbar[0].percentage}
             />
             <ProgressBar
-              title="SEO Support"
-              percentage={this.state.percentage}
+              title={this.state.progressbar[1].title}
+              percentage={this.state.progressbar[1].percentage}
+            />
+            <ProgressBar
+              title={this.state.progressbar[2].title}
+              percentage={this.state.progressbar[2].percentage}
+            />
+            <ProgressBar
+              title={this.state.progressbar[3].title}
+              percentage={this.state.progressbar[3].percentage}
             />
           </div>
         </div>

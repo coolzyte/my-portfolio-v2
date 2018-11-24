@@ -1,0 +1,17 @@
+.PageTitle {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.PageTitle h2 {
+  font-size: 2.2rem;
+}
+
+@media (min-width: 500px) {
+  .PageTitle {
+    max-width: 60%;
+  }
+  .PageTitle h2 {
+    font-size: 3.2rem;
+  }
+}
