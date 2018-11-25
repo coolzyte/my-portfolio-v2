@@ -1,11 +1,10 @@
 import React from "react";
-import classes from "./PageTitle.module.css";
 
 const pagetitle = ({ heading, desc }) => {
   return (
-    <div className={classes.PageTitle}>
+    <div>
       <h2>{heading}</h2>
-      <p>{desc}</p>
+      <p className="max-width">{desc}</p>
     </div>
   );
 };

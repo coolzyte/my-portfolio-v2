@@ -8,7 +8,7 @@ const Hero = () => (
     <div className={classes.TextContent}>
       <div>
         <h5>HAY! THERE</h5>
-        <h1>I AM Smarto</h1>
+        <h1>I AM COOLZYTE</h1>
         <h2 className="cd-headline clip is-full-width">
           a professional
           <span className="cd-words-wrapper">

@@ -1,0 +1,39 @@
+.Card {
+  position: relative;
+  background: white;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Card:hover,
+.Card:focus {
+  transform: scale(1.05);
+}
+
+.Card .Image {
+  background-color: rgb(44, 176, 194);
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.Card .Content {
+  padding: 2rem;
+  border-radius: 0 0 2px 2px;
+  text-align: center;
+}
+
+.Card .Title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
