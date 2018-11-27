@@ -4,9 +4,7 @@ import Hero from "../Hero/Hero";
 import Skill from "../Skill/Skill";
 import PortfolioList from "../Portfolio/PortfolioList";
 import { portfolioContent } from "../Portfolio/portfolioContent";
-// import Testimonial from "../Testimonial/Testimonial";
-// import { testimonialsContent } from "../Testimonial/testimonialsContent";
-// import NewsLetter from "../NewsLetter/NewsLetter";
+import NewsLetter from "../Newsletter/Newsletter";
 
 const home = () => {
   return (
@@ -14,6 +12,7 @@ const home = () => {
       <Hero />
       <Skill />
       <PortfolioList robots={portfolioContent} />
+      <NewsLetter />
     </Layout>
   );
 };
