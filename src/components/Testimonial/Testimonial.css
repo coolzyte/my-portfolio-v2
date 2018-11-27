@@ -26,7 +26,7 @@
   margin-bottom: 3rem;
 }
 
-img {
+.testimonials img {
   border-radius: 100px;
 }
 
@@ -34,15 +34,29 @@ img {
   width: 100%;
 }
 
-.swiper-wrapper {
-  display: flex;
-  z-index: 99;
+@media (min-width: 800px) {
+  .swiper-wrapper {
+    display: flex;
+  }
 }
 
 .swiper-slide {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #fff;
   box-sizing: border-box;
+  padding-top: 4rem;
+}
+
+@media (min-width: 500px) {
+  .swiper-slide {
+    padding: 2rem 6rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .swiper-slide {
+    padding: 0 2rem;
+  }
 }
 
 .title {
@@ -58,18 +72,10 @@ img {
 }
 
 .text {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-style: italic;
-  line-height: 3rem;
+  line-height: 2rem;
   margin: auto;
   color: #fff;
   padding: 0 1.5rem;
-}
-
-@include medium {
-  max-width: 53%;
-}
-
-@include large {
-  max-width: 40%;
 }
