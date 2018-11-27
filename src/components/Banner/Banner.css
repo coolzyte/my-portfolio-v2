@@ -1,0 +1,73 @@
+.banner {
+  grid-column: full-start / full-end;
+  position: relative;
+  height: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/images/slider/breadcrumb.jpg") no-repeat center
+    center / cover;
+}
+
+.banner .content {
+  position: relative;
+  padding-top: 5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.banner .title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  word-spacing: 0.4rem;
+  letter-spacing: 0;
+}
+
+@media (min-width: 500px) {
+  .banner .title {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+  }
+}
+
+.banner .list {
+  position: relative;
+  top: 9rem;
+  margin: 0;
+  padding: 0 1.6rem;
+  background: transparent none repeat scroll 0 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+@media (min-width: 800px) {
+  .banner .list {
+    right: 0;
+    padding: 0;
+    justify-content: flex-end;
+  }
+}
+
+.banner .item,
+a {
+  color: #818181;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.banner .item.active,
+.banner .item a:hover {
+  color: #555;
+}
+
+.banner .item.active:before {
+  content: "/";
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #6c757d;
+}
