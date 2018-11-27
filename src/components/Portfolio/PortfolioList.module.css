@@ -1,6 +1,6 @@
 .PortfolioList {
   grid-column: center-start / center-end;
-  padding-top: 15rem;
+  padding: 15rem 0;
 }
 
 .CardList {
