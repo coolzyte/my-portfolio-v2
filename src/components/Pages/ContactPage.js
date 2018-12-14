@@ -13,29 +13,29 @@ class ContactPage extends Component {
         <Layout>
           <Banner name="Get In Touch" />
           <section className={classes.Contact}>
-            <div className="contact__area">
-              <div className="contact__container">
-                <Map />
+            <div className={classes.Area}>
+              <div className={classes.Content}>
+                <div className={classes.Height}>
+                  <Map />
+                </div>
                 <Form />
               </div>
             </div>
 
-            <div className="contact__support">
-              <div className="grid">
-                <div className="desc">
-                  <h6>Contact Number</h6>
-                  <span>+1 222 3333</span>
-                </div>
+            <div className={classes.Support}>
+              <div>
+                <h6>Contact Number</h6>
+                <span>+1 222 3333</span>
+              </div>
 
-                <div className="desc">
-                  <h6>Address</h6>
-                  <span>Address will be here</span>
-                </div>
+              <div>
+                <h6>Address</h6>
+                <span>Address will be here</span>
+              </div>
 
-                <div className="desc">
-                  <h6>Mail Us</h6>
-                  <span>info@coolzyte.com</span>
-                </div>
+              <div>
+                <h6>Mail Us</h6>
+                <span>info@coolzyte.com</span>
               </div>
             </div>
           </section>
