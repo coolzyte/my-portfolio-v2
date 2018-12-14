@@ -7,7 +7,7 @@ const Testimonial = ({ testimonialsContent }) => {
     <section className="testimonials">
       <div className="swiper-container p-tb">
         <div className="bg bgImage overlay" />
-        <div className="swiper-wrapper">
+        <div className="wrapper swiper-wrapper">
           {testimonialsContent.map((user, i) => {
             return (
               <TestimonialCard

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Banner.css";
 
 const banner = ({ name }) => {
@@ -8,7 +9,7 @@ const banner = ({ name }) => {
         <h3 className="title">{name}</h3>
         <ol className="list">
           <li className="item">
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="item active">{name}</li>
         </ol>
