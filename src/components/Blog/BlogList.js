@@ -5,7 +5,7 @@ import classes from "./BlogList.module.css";
 const bloglist = ({ blogContent }) => {
   return (
     <section class={classes.BlogList}>
-      <div class="blog__wrap">
+      <div class={classes.Wrap}>
         {blogContent.map((user, i) => {
           return (
             <BlogCard
@@ -18,8 +18,8 @@ const bloglist = ({ blogContent }) => {
           );
         })}
       </div>
-      <div class="blog__pagination">
-        <ul class="list">
+      <div class={classes.Pagination}>
+        <ul class={classes.List}>
           <li>
             <a href="link-here">
               <i class="fa fa-long-arrow-left" aria-hidden="true" />

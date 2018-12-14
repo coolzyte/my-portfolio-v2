@@ -4,6 +4,7 @@ import HomePage from "../components/Pages/HomePage";
 import AboutPage from "../components/Pages/AboutPage";
 import PortfolioPage from "../components/Pages/PortfolioPage";
 import BlogPage from "../components/Pages/BlogPage";
+import ContactPage from "../components/Pages/ContactPage";
 import "./App.css";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           <Route exact path="/aboutus" component={AboutPage} />
           <Route exact path="/portfolio" component={PortfolioPage} />
           <Route exact path="/blog" component={BlogPage} />
+          <Route exact path="/contact-us" component={ContactPage} />
         </div>
       </Router>
     );
