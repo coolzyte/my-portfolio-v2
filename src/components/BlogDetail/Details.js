@@ -32,9 +32,7 @@ const Details = () => {
             </li>
           </ul>
           <div className="m-bottom-4">
-            <h3 className="heading heading--2">
-              Five Things You Didn’t Know About smith
-            </h3>
+            <h3>Five Things You Didn’t Know About smith</h3>
             <p className="m-bottom-2">
               There boluptatum deleniti atque corrupti sdolores et quas
               molestias cepturi sint eca itate non similique sunt in culpa modi
@@ -53,7 +51,7 @@ const Details = () => {
               can procure him some great pleasure obtain
             </p>
           </div>
-          <div className="blog-details__wrap">
+          <div className={classes.Wrap}>
             <div className="item-img">
               <img src={B1} alt="blog-img" />
             </div>
@@ -62,7 +60,7 @@ const Details = () => {
             </div>
           </div>
 
-          <div className="blog-details__lower-text">
+          <div className={classes.LowerText}>
             <p className="m-bottom-2">
               someone boluptatum deleniti atque corrupti sdolores et quas
               molestias cepturi sint eca itate non similique sunt in culpa modi
@@ -70,7 +68,7 @@ const Details = () => {
               because occasionally circumstances occur in which toil and pain
               can procure him some great pleasure obtain
             </p>
-            <blockquote className="blockquote center">
+            <blockquote className={classes.Blockquote}>
               <p>
                 "While most companies strive to deliver seamless and issue-free
                 customer service, what they often fail to understand is just how
@@ -78,7 +76,7 @@ const Details = () => {
                 overall service delivery and, ultimately, how their customers
                 view them."
               </p>
-              <footer className="blockquote-footer">Devid Chory</footer>
+              <footer className={classes.BlockquoteFooter}>Devid Chory</footer>
             </blockquote>
             <p>
               There boluptatum deleniti atque corrupti sdolores et quas
