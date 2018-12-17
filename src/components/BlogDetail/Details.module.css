@@ -1,0 +1,28 @@
+.BlogDetail {
+  grid-column: center-start / center-end;
+  padding: 6rem 0;
+}
+
+@media (min-width: 1200px) {
+  .BlogDetail {
+    padding: 15rem 0;
+  }
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0;
+}
+
+@media (min-width: 1200px) {
+  .Container {
+    display: grid;
+    grid-template-columns: 77rem 1fr;
+    grid-gap: 5rem;
+  }
+}
+
+.Medium img {
+  margin-bottom: 4rem;
+}
