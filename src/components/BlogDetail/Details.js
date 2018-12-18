@@ -87,12 +87,12 @@ const Details = () => {
               it is pain, but because occasionally circumstances occur in which
               toil and pain can procure him some great pleasure someone
               boluptatum deleniti atque corrupti sdolores et quas molestias
-              cepturi sint eca itate non{" "}
+              cepturi sint eca itate non
             </p>
           </div>
-          <div className="blog-details__author">
+          <div className={classes.Author}>
             <h3>author</h3>
-            <div className="comment">
+            <div className={classes.Comment}>
               <img src={B12} alt="blog-comment" />
 
               <div className="comment__desc">
@@ -107,22 +107,22 @@ const Details = () => {
               </div>
             </div>
           </div>
-          <div className="blog-details__tags-social">
-            <div className="tags">
+          <div className={classes.SocialTags}>
+            <div className={classes.Tags}>
               <ul className="flex-item mb-sm-15">
                 <li className="t-list">Tags:</li>
                 <li>
                   <a href="link-here">design,</a>
                 </li>
                 <li>
-                  <a href="link-here">developmen,</a>
+                  <a href="link-here">development,</a>
                 </li>
                 <li>
                   <a href="link-here">sketch</a>
                 </li>
               </ul>
             </div>
-            <div className="blog-social">
+            <div className={classes.BlogSocial}>
               <ul className="flex-item">
                 <li className="t-list">Share:</li>
                 <li>
@@ -139,7 +139,7 @@ const Details = () => {
           </div>
 
           <div className="blog-pagination">
-            <ul className="pagination flex-item">
+            <ul className={classes.Pagination}>
               <li>
                 <a href="link-here">
                   <i className="fa fa-long-arrow-left" aria-hidden="true" />
@@ -155,21 +155,21 @@ const Details = () => {
             </ul>
           </div>
 
-          <div className="blog-details__comments">
+          <div className={classes.VisitorComment}>
             <h3>comments</h3>
 
-            <div className="comment">
+            <div className={classes.Visitor}>
               <img src={B9} alt="comment-img" />
 
-              <div className="comment__desc">
-                <div className="flex-item">
-                  <div className="title">
+              <div className={classes.Description}>
+                <div className={classes.Content}>
+                  <div className={classes.Title}>
                     <h6>
                       <a href="link-here">robert skue</a>
                     </h6>
                     <span>08 Jun 2017</span>
                   </div>
-                  <div className="reply">
+                  <div className={classes.Reply}>
                     <a href="link-here">reply</a>
                   </div>
                 </div>
@@ -181,18 +181,18 @@ const Details = () => {
               </div>
             </div>
 
-            <div className="comment comment--reply">
+            <div className={classes.VisitorReply}>
               <img src={B10} alt="comment-img" />
 
-              <div className="comment__desc">
-                <div className="flex-item">
-                  <div className="title">
+              <div className={classes.Description}>
+                <div className={classes.Content}>
+                  <div className={classes.Title}>
                     <h6>
                       <a href="link-here">robert skue</a>
                     </h6>
                     <span>08 Jun 2017</span>
                   </div>
-                  <div className="reply">
+                  <div className={classes.Reply}>
                     <a href="link-here">reply</a>
                   </div>
                 </div>
@@ -204,18 +204,18 @@ const Details = () => {
               </div>
             </div>
 
-            <div className="comment">
+            <div className={classes.Visitor}>
               <img src={B11} alt="comment-img" />
 
-              <div className="comment__desc">
-                <div className="flex-item">
-                  <div className="title">
+              <div className={classes.Description}>
+                <div className={classes.Content}>
+                  <div className={classes.Title}>
                     <h6>
                       <a href="link-here">robert skue</a>
                     </h6>
                     <span>08 Jun 2017</span>
                   </div>
-                  <div className="reply">
+                  <div className={classes.Reply}>
                     <a href="link-here">reply</a>
                   </div>
                 </div>

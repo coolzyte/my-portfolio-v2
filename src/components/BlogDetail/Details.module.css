@@ -72,3 +72,133 @@
 .LowerText .Blockquote .BlockquoteFooter:before {
   content: "\2014 \00A0";
 }
+
+.Autor {
+  margin: 6rem 0;
+}
+
+.Comment {
+  display: flex;
+  align-items: center;
+  background: #fafafa none repeat scroll 0 0;
+  margin-bottom: 4rem;
+  padding: 5rem 4rem;
+}
+
+.Comment img {
+  margin-right: 2rem;
+}
+
+.Comment h6 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.Comment a {
+  color: #303030;
+}
+
+.SocialTags {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.SocialTags .Tags,
+.BlogSocial li {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.SocialTags li a {
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #555;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pagination li a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #606060;
+}
+
+.Pagination li i {
+  margin-right: 0.5rem;
+}
+
+.Pagination li i {
+  margin-left: 0.5rem;
+}
+
+.VisitorComment {
+  padding-top: 9rem;
+}
+
+.Visitor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9rem;
+}
+
+.Visitor img {
+  margin-right: 2rem;
+}
+
+.VisitorReply {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9rem;
+}
+
+.VisitorReply img {
+  margin-right: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .VisitorReply {
+    margin-left: 13.5rem;
+  }
+}
+
+.Description .Content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Title {
+  margin-bottom: 1rem;
+}
+
+.Title h6 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.Title a {
+  color: #303030;
+}
+
+.Title span {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  display: inline-block;
+  color: #a2a2a2;
+}
+
+.Reply a {
+  color: #303030;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
