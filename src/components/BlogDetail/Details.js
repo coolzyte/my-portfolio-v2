@@ -5,13 +5,11 @@ import B2 from "../../assets/images/blog/b2.jpg";
 import B12 from "../../assets/images/blog/b12.png";
 import B9 from "../../assets/images/blog/b9.png";
 import B10 from "../../assets/images/blog/b10.png";
-import B8 from "../../assets/images/blog/b8.png";
-import B16 from "../../assets/images/blog/b16.jpg";
 import B11 from "../../assets/images/blog/b11.png";
-import B6 from "../../assets/images/blog/b6.png";
-import B7 from "../../assets/images/blog/b7.png";
 import Button from "../../components/Button/Button";
+import MetaBox from "../Blog/MetaBox";
 import classes from "./Details.module.css";
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 const Details = () => {
   return (
@@ -19,18 +17,7 @@ const Details = () => {
       <div className={classes.Container}>
         <div className={classes.Medium}>
           <img src={B15} alt="blog-img" />
-          <ul className="blog__meta-box">
-            <li className="blog__meta-date">
-              <span>
-                <i className="fa fa-calendar" aria-hidden="true" />
-                oct 27, 2018
-              </span>
-            </li>
-            <li>
-              <i className="fa fa-user" aria-hidden="true" />
-              By <a href="link-here"> Coolzyte</a>
-            </li>
-          </ul>
+          <MetaBox />
           <div className="m-bottom-4">
             <h3>Five Things You Didn’t Know About smith</h3>
             <p className="m-bottom-2">
@@ -228,20 +215,20 @@ const Details = () => {
             </div>
           </div>
 
-          <div className="blog-details__contact">
-            <h3 className="title">Leave A Reply</h3>
+          <div className={classes.Contact}>
+            <h3>Leave A Reply</h3>
 
             <form>
-              <div className="grid-cont">
-                <div className="group p-right">
-                  <input className="control" placeholder="Name" type="text" />
+              <div className={classes.GridContainer}>
+                <div className={classes.Group}>
+                  <input placeholder="Name" type="text" />
                 </div>
-                <div className="group">
-                  <input className="control" placeholder="Email" type="email" />
+                <div className={classes.Group}>
+                  <input placeholder="Email" type="email" />
                 </div>
               </div>
               <div>
-                <textarea className="control" placeholder="Message" />
+                <textarea placeholder="Message" />
               </div>
               <div>
                 <Button name="Send Now" />
@@ -250,137 +237,7 @@ const Details = () => {
           </div>
         </div>
 
-        <div className="grid-item-4">
-          <div className="blog-details__sidebar">
-            <div className="newsletter search-box">
-              <div className="newsletter__box">
-                <h3 className="heading heading--2">Search</h3>
-                <form action="">
-                  <input
-                    type="text"
-                    className="newsletter__input"
-                    placeholder="Enter Keywords"
-                    name="email"
-                  />
-                  <button type="submit" className="submit">
-                    <i className="fa fa-paper-plane-o" />
-                  </button>
-                </form>
-              </div>
-            </div>
-
-            <div className="categorie recent-post">
-              <h3 className="sidebar-header">categories</h3>
-              <ul className="list">
-                <li>
-                  <a href="link-here">
-                    creative
-                    <span>(20)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="link-here">
-                    corporate
-                    <span>(40)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="link-here">
-                    business
-                    <span>(22)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="link-here">
-                    consultancy
-                    <span>(15)</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="link-here">
-                    technology
-                    <span>(18)</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="recent-post">
-              <h3 className="sidebar-header">recent posts</h3>
-              <div className="all-recent-post">
-                <div className="single-recent-post">
-                  <a href="link-here">
-                    <img src={B6} alt="blog-img" />
-                  </a>
-                  <div className="recent-post-desc">
-                    <span>20 April, 2018</span>
-                    <h6>
-                      <a href="link-here">
-                        Liusmod tempor incididunt ut labore et dolore magn
-                      </a>
-                    </h6>
-                  </div>
-                </div>
-                <div className="single-recent-post">
-                  <a href="link-here">
-                    <img src={B7} alt="blog-img" />
-                  </a>
-                  <div className="recent-post-desc">
-                    <span>18 April, 2018</span>
-                    <h6>
-                      <a href="link-here">
-                        Modi tempora incidunt ut labore et dolore magnam{" "}
-                      </a>
-                    </h6>
-                  </div>
-                </div>
-                <div className="single-recent-post">
-                  <a href="link-here">
-                    <img src={B8} alt="blog-img" />
-                  </a>
-                  <div className="recent-post-desc">
-                    <span>15 April, 2018</span>
-                    <h6>
-                      <a href="link-here">
-                        pursue pleasure rationallye ncounter consequences{" "}
-                      </a>
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="m-bottom-6">
-              <a href="blog-details.html">
-                <img className="image" src={B16} alt="portfolio-img" />
-              </a>
-            </div>
-
-            <div className="categorie recent-post">
-              <h3>Tags</h3>
-              <ul className="tag-list flex-item">
-                <li>
-                  <a href="link-here">Corporate</a>
-                </li>
-                <li>
-                  <a href="link-here">Business</a>
-                </li>
-                <li>
-                  <a href="link-here">Clients</a>
-                </li>
-                <li>
-                  <a href="link-here">Ideas</a>
-                </li>
-                <li>
-                  <a href="link-here">Creative</a>
-                </li>
-                <li>
-                  <a href="link-here">Develop</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        <Sidebar />
       </div>
     </div>
   );

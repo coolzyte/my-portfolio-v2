@@ -1,0 +1,25 @@
+.Sidebar h3 {
+  margin-bottom: 2rem;
+}
+
+.Tag {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Tag li a {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #696969;
+  border: 1px solid #efefef;
+  display: inline-block;
+  margin: 0 0.6rem 1.5rem;
+  padding: 0.8rem 2rem;
+  text-transform: capitalize;
+  background: transparent;
+}
+
+.Tag li a:hover {
+  background: #303030;
+  color: #fff;
+}

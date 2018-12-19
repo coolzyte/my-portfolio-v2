@@ -1,4 +1,5 @@
 import React from "react";
+import MetaBox from "../Blog/MetaBox";
 import classes from "../Blog/BlogCard.module.css";
 
 const BlogCard = ({ pic, title, desc }) => (
@@ -11,18 +12,7 @@ const BlogCard = ({ pic, title, desc }) => (
           </a>
         </div>
         <div class={classes.Desc}>
-          <ul class={classes.MetaBox}>
-            <li class={classes.MetaDate}>
-              <span>
-                <i class="fa fa-calendar" aria-hidden="true" />
-                Jun 17, 2018
-              </span>
-            </li>
-            <li>
-              <i class="fa fa-user" aria-hidden="true" />
-              By <a href="link-here"> Coolzyte</a>
-            </li>
-          </ul>
+          <MetaBox />
           <div class="blog__content">
             <h6 class={classes.Title}>
               <a href="/blog-details">{title}</a>

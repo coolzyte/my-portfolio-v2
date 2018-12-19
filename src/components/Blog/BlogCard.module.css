@@ -14,38 +14,6 @@
   padding: 2rem 2rem 1.5rem;
 }
 
-.MetaBox {
-  display: flex;
-  border-bottom: 0.1rem solid #ebebeb;
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-}
-
-.MetaBox li i {
-  margin-right: 0.8rem;
-}
-
-.MetaBox li a {
-  color: #555;
-  display: inline-block;
-  font-size: 1.3rem;
-  font-weight: 500;
-  line-height: 2.5rem;
-  margin-right: 2rem;
-  text-transform: capitalize;
-  font-family: "Raleway", sans-serif;
-}
-
-.MetaDate,
-.MetaBox li {
-  color: #666666;
-  display: inline-block;
-  font-size: 1.3rem;
-  line-height: 2.5rem;
-  margin-right: 2rem;
-  text-transform: capitalize;
-}
-
 .Title {
   font-size: 1.5rem;
   font-weight: 700;

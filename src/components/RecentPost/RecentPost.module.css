@@ -1,0 +1,38 @@
+.RecentPost {
+  margin-bottom: 6rem;
+}
+
+.SingleRecentPost:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.SingleRecentPost {
+  display: flex;
+}
+
+.SingleRecentPost a {
+  padding-right: 1.5rem;
+}
+
+.RecentPostDesc {
+  overflow: hidden;
+}
+
+.RecentPostDesc span {
+  color: #888;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.RecentPostDesc h6 {
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.RecentPostDesc h6 a {
+  color: #353535;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}

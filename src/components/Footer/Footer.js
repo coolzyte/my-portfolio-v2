@@ -18,7 +18,7 @@ const Footer = () => {
       <div className={classes.Bottom}>
         <div className={classes.Copyright}>
           &copy; All Rights Reserved By
-          <a href="http://coolzyte.com">Coolzyte</a>
+          <a href="http://coolzyte.com"> Coolzyte</a>
         </div>
         <ul className={classes.SocialMenu}>
           <Social />
