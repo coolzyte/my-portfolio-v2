@@ -1,5 +1,4 @@
 .BlogDetail {
-  grid-column: center-start / center-end;
   padding: 6rem 0;
 }
 
@@ -151,9 +150,9 @@
   margin-bottom: 9rem;
 }
 
-.Visitor img {
+/* .Visitor img {
   margin-right: 2rem;
-}
+} */
 
 .VisitorReply {
   display: flex;

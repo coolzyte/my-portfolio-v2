@@ -1,7 +1,3 @@
-.expert {
-  grid-column: center-start / center-end;
-}
-
 .expert .content {
   display: grid;
 }
@@ -14,6 +10,14 @@
 
 .expert .item {
   position: relative;
+  margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .expert .item {
+    position: relative;
+    margin-top: 0;
+  }
 }
 
 .expert .image {

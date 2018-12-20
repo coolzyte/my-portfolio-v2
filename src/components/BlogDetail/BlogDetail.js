@@ -3,6 +3,7 @@ import Aux from "../../hoc/Aux";
 import Layout from "../Layout/Layout";
 import Banner from "../Banner/Banner";
 import Details from "./Details";
+import classes from "./BlogDetail.module.css";
 
 class BlogDetail extends Component {
   render() {
@@ -10,7 +11,9 @@ class BlogDetail extends Component {
       <Aux>
         <Layout>
           <Banner name="Blog Details" />
-          <Details />
+          <section className={classes.BlogDetail}>
+            <Details />
+          </section>
         </Layout>
       </Aux>
     );

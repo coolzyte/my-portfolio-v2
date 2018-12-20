@@ -103,10 +103,12 @@ ul {
   align-items: center;
 }
 
-.item-grid-2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-  grid-gap: 4rem;
+@media (min-width: 768px) {
+  .item-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-gap: 4rem;
+  }
 }
 
 .wrapper {
@@ -141,10 +143,16 @@ ul {
 
 h2 {
   display: inline-block;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   font-weight: 600;
   line-height: 3.2rem;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3.2rem;
+  }
 }
 
 .center {
