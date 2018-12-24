@@ -45,18 +45,16 @@
 
 .Footer .Bottom {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  flex-flow: column;
+  align-items: center;
 }
 
 @media (min-width: 500px) {
   .Footer .Bottom {
+    flex-flow: row;
     justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 }
 

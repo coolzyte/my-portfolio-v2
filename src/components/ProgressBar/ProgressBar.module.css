@@ -1,14 +1,13 @@
 .ProgressBar {
   position: relative;
   height: 10px;
-  width: 350px;
   border-radius: 50px;
   border: 1px solid #333;
   margin: 1rem 0;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1200px) {
   .ProgressBar {
-    width: 450px;
+    width: 500px;
   }
 }

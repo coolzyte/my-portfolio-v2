@@ -21,7 +21,7 @@ class Skill extends Component {
       <section className={classes.Skill}>
         <div className="section-title">
           <PageTitle
-            heading="Some Word's About Me"
+            heading="Who We Are"
             desc="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
         fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
         sequi nesciunt. Neque porro quisquam est"
@@ -31,18 +31,17 @@ class Skill extends Component {
           <div>
             <p className="m-bottom-2">
               <span className={classes.Big}>S</span>
-              abuj must explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
-              account of the system, and expound the actual teachings of the
-              great explorer of the truth, the master-builder of human
-              happiness. No one rejects, dislikes, or avoids pleasure itself
+              mall or big, your business will love our financial help and
+              business consultations! We are happy when our clients are too…
+              Actually, this is quite simple to achieve – because each time we
+              help them in sorting out different accounting intricacies or save
+              the day before filing the taxes, they are happy indeed! And so are
+              we!
             </p>
-            <p className="m-bottom-2">
-              Imust explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
-              account of the system, and expound the actual teachings of the
-              great explorer of the truth, the master-builder
-            </p>
+            <h3>
+              We have over four years of successful experience in Web
+              development sphere in Nigeria market.
+            </h3>
             <Button name="Download CV" />
           </div>
           <div className={classes.ProgressBar}>

@@ -1,4 +1,5 @@
 .Skill {
+  grid-column: center-start / center-end;
   padding-top: 15rem;
 }
 
@@ -6,6 +7,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 4rem;
+}
+
+@media (min-width: 1200px) {
+  .Skill .Content {
+    grid-gap: 6rem;
+  }
 }
 
 .Skill .Big {
@@ -16,4 +23,9 @@
   height: 5rem;
   line-height: 5rem;
   padding-right: 1rem;
+}
+
+.Content h3 {
+  text-transform: capitalize;
+  margin-bottom: 2rem;
 }

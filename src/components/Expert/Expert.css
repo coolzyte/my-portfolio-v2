@@ -1,3 +1,7 @@
+.expert {
+  grid-column: center-start / center-end;
+}
+
 .expert .content {
   display: grid;
 }
