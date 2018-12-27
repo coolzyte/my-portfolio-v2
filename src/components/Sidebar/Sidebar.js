@@ -6,13 +6,13 @@ import classes from "./Sidebar.module.css";
 
 const sidebar = () => {
   return (
-    <div className="grid-item-4">
+    <div>
       <div className={classes.Sidebar}>
         <SearchBox />
         <Category />
         <RecentPost />
 
-        <div className="categorie recent-post">
+        <div>
           <h3>Tags</h3>
           <ul className={classes.Tag}>
             <li>

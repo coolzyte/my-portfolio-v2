@@ -227,9 +227,9 @@ const Details = () => {
                   <input placeholder="Email" type="email" />
                 </div>
               </div>
-              <div>
-                <textarea placeholder="Message" />
-              </div>
+
+              <textarea placeholder="Message" />
+
               <div>
                 <Button name="Send Now" />
               </div>
