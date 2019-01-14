@@ -1,15 +1,14 @@
 import React from "react";
-import Layout from "../Layout/Layout";
 import Banner from "../Banner/Banner";
 import PortfolioList from "../Portfolio/PortfolioList";
 import { portfolioContent } from "../Portfolio/portfolioContent";
 
 const portfolio = () => {
   return (
-    <Layout>
+    <div className="container">
       <Banner name="Portfolio" />
       <PortfolioList robots={portfolioContent} />
-    </Layout>
+    </div>
   );
 };
 export default portfolio;

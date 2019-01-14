@@ -17,7 +17,16 @@
   }
 }
 
+.FormWidth {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .Support {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;

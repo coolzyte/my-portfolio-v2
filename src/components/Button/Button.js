@@ -4,9 +4,7 @@ import classes from "./Button.module.css";
 
 const Button = ({ name }) => (
   <Aux>
-    <a href="/contact-us" className={classes.Btn}>
-      {name}
-    </a>
+    <button className={classes.Btn}>{name}</button>
   </Aux>
 );
 

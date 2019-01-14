@@ -1,15 +1,14 @@
 import React from "react";
-import Layout from "../Layout/Layout";
 import Banner from "../Banner/Banner";
 import BlogList from "../Blog/BlogList";
 import { blogContent } from "../Blog/blogContent";
 
 const blog = () => {
   return (
-    <Layout>
+    <div className="container">
       <Banner name="Our Blog" />
       <BlogList blogContent={blogContent} />
-    </Layout>
+    </div>
   );
 };
 export default blog;
