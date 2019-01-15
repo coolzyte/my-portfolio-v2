@@ -7,10 +7,10 @@ const Hero = () => (
   <div className={classes.Hero}>
     <div className={classes.TextContent}>
       <div>
-        <h5>Coolzyte</h5>
+        <h5>Hay there!</h5>
         <h1>
-          Digital Marketing
-          <br /> Web Design
+          I am Muhammed
+          <h5>A Profesional Developer</h5>
         </h1>
       </div>
       <Button name="Make An Appointment" />

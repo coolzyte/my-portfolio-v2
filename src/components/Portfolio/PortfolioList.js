@@ -3,7 +3,7 @@ import PortfolioCard from "./PortfolioCard";
 import PageTitle from "../PageTitle/PageTitle";
 import classes from "./PortfolioList.module.css";
 
-const portfoliolist = ({ robots }) => {
+const portfoliolist = ({ projects }) => {
   return (
     <div className={classes.PortfolioList}>
       <div className="section-title-left">
@@ -13,13 +13,13 @@ const portfoliolist = ({ robots }) => {
         />
       </div>
       <div className={classes.CardList}>
-        {robots.map((user, i) => {
+        {projects.map((user, i) => {
           return (
             <PortfolioCard
               key={i}
-              id={robots[i].id}
-              name={robots[i].name}
-              email={robots[i].email}
+              id={projects[i].id}
+              name={projects[i].name}
+              email={projects[i].email}
             />
           );
         })}
@@ -27,4 +27,5 @@ const portfoliolist = ({ robots }) => {
     </div>
   );
 };
+
 export default portfoliolist;

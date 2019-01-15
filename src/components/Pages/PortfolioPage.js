@@ -1,13 +1,13 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 import PortfolioList from "../Portfolio/PortfolioList";
-import { portfolioContent } from "../Portfolio/portfolioContent";
+import { projects } from "../Portfolio/projects";
 
 const portfolio = () => {
   return (
     <div className="container">
       <Banner name="Portfolio" />
-      <PortfolioList robots={portfolioContent} />
+      <PortfolioList projects={projects} />
     </div>
   );
 };

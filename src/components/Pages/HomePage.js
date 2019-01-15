@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../Hero/Hero";
 import Skill from "../Skill/Skill";
 import PortfolioList from "../Portfolio/PortfolioList";
-import { portfolioContent } from "../Portfolio/portfolioContent";
+import { projects } from "../Portfolio/projects";
 import NewsLetter from "../Newsletter/Newsletter";
 import Testimonial from "../Testimonial/Testimonial";
 import { testimonialsContent } from "../Testimonial/testimonialContent";
@@ -12,7 +12,7 @@ const home = () => {
     <div className="container">
       <Hero />
       <Skill />
-      <PortfolioList robots={portfolioContent} />
+      <PortfolioList robots={projects} />
       <Testimonial testimonialsContent={testimonialsContent} />
       <NewsLetter />
     </div>
