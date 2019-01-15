@@ -12,7 +12,7 @@ const home = () => {
     <div className="container">
       <Hero />
       <Skill />
-      <PortfolioList robots={projects} />
+      <PortfolioList projects={projects} />
       <Testimonial testimonialsContent={testimonialsContent} />
       <NewsLetter />
     </div>

@@ -12,14 +12,16 @@ const portfoliolist = ({ projects }) => {
           desc="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the monen vai kemon asen"
         />
       </div>
+
       <div className={classes.CardList}>
-        {projects.map((user, i) => {
+        {projects.map((project, i) => {
           return (
             <PortfolioCard
               key={i}
               id={projects[i].id}
               name={projects[i].name}
-              email={projects[i].email}
+              desc={projects[i].desc}
+              pic={projects[i].pic}
             />
           );
         })}
