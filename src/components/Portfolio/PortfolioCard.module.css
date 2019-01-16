@@ -25,8 +25,8 @@
 }
 
 .Portfolio:hover:before,
-.Portfolio:hover .Portfolio-hover,
-.Portfolio:hover .Portfolio-action {
+.Portfolio:hover .PortfolioHover,
+.Portfolio:hover .PortfolioAction {
   opacity: 1;
 }
 

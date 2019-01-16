@@ -1,0 +1,93 @@
+.Details {
+  grid-column: center-start / center-end;
+  padding: 10rem 0;
+}
+
+@media (min-width: 800px) {
+  .Container {
+    display: grid;
+    grid-template-columns: 77rem 1fr;
+    grid-gap: 5rem;
+  }
+}
+
+.ItemOne img {
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.DetailsBrief {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 500px) {
+  .Row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    margin-top: 3rem;
+  }
+}
+
+.Row span {
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  .VideoClip {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .VideoClip {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.Pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.Pagination li a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #606060;
+}
+
+.Pagination .fa-long-arrow-left {
+  margin-right: 0.5rem;
+}
+
+.Pagination .fa-long-arrow-right {
+  margin-left: 0.5rem;
+}
+
+.Others {
+  grid-column: center-start / center-end;
+  margin-bottom: 10rem;
+}
+
+.Others h3 {
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 500px) {
+  .Others .Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .Others .Container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+  }
+}

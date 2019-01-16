@@ -1,0 +1,82 @@
+.SideBar img {
+  width: 100%;
+}
+
+.SideBar h4 {
+  font-size: 2.4rem;
+  border-bottom: 2px solid #303030;
+  padding-bottom: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.Info {
+  background: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.Info h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.Info li {
+  display: flex;
+  justify-content: center;
+}
+
+.Info li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.Info ul li img {
+  display: inline-block;
+  width: auto;
+  margin-right: 1.5rem;
+}
+
+.Info li a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #606060;
+}
+
+.List {
+  text-align: center;
+}
+
+.List h6 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.List p {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.List:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.Instagram {
+  padding: 4rem;
+  margin: 4rem 0;
+  background: #f9f9f9;
+}
+
+.Instagram h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.InstagramImage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.InstagramImage img {
+  width: 100%;
+}
