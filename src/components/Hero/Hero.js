@@ -7,9 +7,9 @@ const Hero = () => (
   <div className={classes.Hero}>
     <div className={classes.TextContent}>
       <div>
-        <h5>Hay there!</h5>
+        <h5>Hellooooooo!</h5>
         <h1>
-          I am Muhammed
+          I am Tunde
           <h5>A Profesional Developer</h5>
         </h1>
       </div>
