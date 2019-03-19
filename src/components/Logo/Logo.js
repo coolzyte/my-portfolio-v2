@@ -1,11 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import LogoImage from "../../assets/images/c-logo.svg";
-import classes from "./Logo.module.css";
 
-const logo = props => (
-  <div className={classes.Logo} style={{ height: props.height }}>
-    <img src={LogoImage} alt="MyPortfolioLogo" />
-  </div>
-);
+export const Logo = props => {
+  const template = (
+    <div
+      className="img_cover"
+      style={{
+        width: props.width,
+        height: props.height,
+        background: `url(${LogoImage}) no-repeat`
+      }}
+    />
+  );
 
-export default logo;
+  if (props.link) {
+    return (
+      <Link to={props.linkTo} className="link_logo">
+        {template}
+      </Link>
+    );
+  } else {
+    return template;
+  }
+};

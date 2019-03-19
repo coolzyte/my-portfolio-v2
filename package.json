@@ -4,6 +4,7 @@
   "homepage": "http://coolzyte.github.io/my-portfolio-v2",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
     "gh-pages": "^2.0.1",
     "google-map-react": "^1.1.1",
     "react": "^16.6.3",
