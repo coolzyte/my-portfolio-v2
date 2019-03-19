@@ -39,6 +39,6 @@
     text-transform: uppercase;
   }
   .NavigationItem a:hover {
-    border-bottom: 4px solid rgb(54, 4, 4);
+    border-bottom: 4px solid rgb(5, 4, 4);
   }
 }
