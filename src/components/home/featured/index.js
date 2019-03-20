@@ -1,15 +1,15 @@
 import React from "react";
-import Button from "../Button/Button";
-import Social from "../Social/Social";
-import classes from "./Hero.module.css";
+import Button from "../../Button/Button";
+import Social from "../../Social/Social";
+import classes from "./featured.module.css";
 
-const Hero = () => (
-  <div className={classes.Hero}>
+const Featured = () => (
+  <div className={classes.Featured}>
     <div className={classes.TextContent}>
       <div>
-        <h5>Hellooooooo!</h5>
+        <h5>Hi!</h5>
         <h1>
-          I am Tunde
+          I'm Tunde
           <h5>A Profesional Developer</h5>
         </h1>
       </div>
@@ -21,4 +21,4 @@ const Hero = () => (
   </div>
 );
 
-export default Hero;
+export default Featured;
