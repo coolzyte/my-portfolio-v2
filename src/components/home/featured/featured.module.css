@@ -1,19 +1,21 @@
 .Featured {
   grid-column: full-start / full-end;
-  background: #ededed;
-  position: relative;
+  background: #0f151d;
+  margin: 0 auto;
   height: 80vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-top: 9rem;
+  overflow: hidden;
+  /* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center; */
   /* margin: 0 auto;
   width: 128rem;
   margin-top: 9rem;
   height: 80rem;
-  overflow: hidden; */
+   */
 }
 
 @media (min-width: 768px) {

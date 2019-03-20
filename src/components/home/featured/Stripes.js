@@ -1,9 +1,71 @@
 import React, { Component } from "react";
 import { easePolyOut } from "d3-ease";
-import Animate from "react-move/Animate";
+import { Animate } from "react-move";
 
 class Stripes extends Component {
-  showStripes = () => <div>stripes</div>;
+  state = {
+    stripes: [
+      {
+        background: "#EDEDED",
+        left: 120,
+        rotate: 25,
+        top: -260,
+        delay: 0
+      },
+      {
+        background: "#ffffff",
+        left: 360,
+        rotate: 25,
+        top: -397,
+        delay: 200
+      },
+      {
+        background: "#EDEDED",
+        left: 600,
+        rotate: 25,
+        top: -498,
+        delay: 400
+      }
+    ]
+  };
+
+  showStripes = () =>
+    this.state.stripes.map((stripe, i) => (
+      <div>
+        <Animate
+          key={i}
+          show={true}
+          start={{
+            background: stripe.background,
+            opacity: 0,
+            left: 0,
+            rotate: 0,
+            top: 0
+          }}
+          enter={{
+            background: [stripe.background],
+            opacity: [1],
+            left: [stripe.left],
+            rotate: [stripe.rotate],
+            top: [stripe.top],
+            timing: { delay: stripe.delay, duration: 200, ease: easePolyOut }
+          }}
+        >
+          {({ opacity, left, rotate, top, background }) => {
+            return (
+              <div
+                className="stripe"
+                style={{
+                  background,
+                  opacity,
+                  transform: `rotate(${rotate}deg) translate(${left}px,${top}px)`
+                }}
+              />
+            );
+          }}
+        </Animate>
+      </div>
+    ));
   render() {
     return <div className="featured_stripes">{this.showStripes()}</div>;
   }

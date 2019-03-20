@@ -1,6 +1,5 @@
 import React from "react";
 import Stripes from "./Stripes";
-import Button from "../../Button/Button";
 import Social from "../../Social/Social";
 import classes from "./featured.module.css";
 
