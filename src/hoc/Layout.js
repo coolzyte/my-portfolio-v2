@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Aux from "./Aux";
 import Header from "../components/Header_footer/Header";
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Header_footer/Footer/Footer";
 
 class Layout extends Component {
   state = {
