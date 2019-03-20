@@ -9,6 +9,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  /* margin: 0 auto;
+  width: 128rem;
+  margin-top: 9rem;
+  height: 80rem;
+  overflow: hidden; */
 }
 
 @media (min-width: 768px) {
