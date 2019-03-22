@@ -239,9 +239,30 @@ h2 {
   position: absolute;
 }
 
+.featured_text {
+  position: relative;
+}
+
+.featured_pic {
+  width: 500px;
+  height: 500px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  position: absolute;
+}
+
 .featured_number {
   font-size: 270px;
-  color: #ffffff;
+  color: #0e1731;
   transform: translate(260px, 170px);
   position: absolute;
+}
+
+.featured_title {
+  position: absolute;
+  background: #0e1731;
+  color: #ffffff;
+  font-size: 92px;
+  text-transform: uppercase;
+  padding: 40px 20px;
 }
