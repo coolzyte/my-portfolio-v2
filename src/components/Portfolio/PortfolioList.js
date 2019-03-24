@@ -1,17 +1,12 @@
 import React from "react";
 import PortfolioCard from "./PortfolioCard";
-import PageTitle from "../PageTitle/PageTitle";
+import { Title } from "../UI/misc";
 import classes from "./PortfolioList.module.css";
 
 const portfoliolist = ({ projects }) => {
   return (
     <div className={classes.PortfolioList}>
-      <div className="section-title-left">
-        <PageTitle
-          heading="CHECK LATEST WORK"
-          desc="But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the monen vai kemon asen"
-        />
-      </div>
+      <Title>Check Latest Work</Title>
 
       <div className={classes.CardList}>
         {projects.map((project, i) => {

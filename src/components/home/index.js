@@ -1,6 +1,6 @@
 import React from "react";
 import Featured from "./featured";
-import Skill from "../Skill/Skill";
+import Skill from "../Skill";
 import PortfolioList from "../Portfolio/PortfolioList";
 import { projects } from "../Portfolio/projects";
 import NewsLetter from "../Newsletter/Newsletter";

@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-import Skill from "../Skill/Skill";
+import Skill from "../Skill";
 import Expert from "../Expert/Expert";
 import NewsLetter from "../Newsletter/Newsletter";
 

@@ -1,17 +1,12 @@
 import React from "react";
-import PageTitle from "../PageTitle/PageTitle";
+import { Title } from "../UI/misc";
 import "./Newsletter.css";
 
 const NewsLetter = () => {
   return (
     <section className="Newsletter">
       <div className="section-title">
-        <PageTitle
-          heading="Subscribe Newsletter"
-          desc="But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the monen vai kemon asen"
-        />
+        <Title>Subscribe Newsletter</Title>
       </div>
       <div className="Box">
         <form>

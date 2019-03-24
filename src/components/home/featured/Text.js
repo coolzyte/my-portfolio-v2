@@ -24,7 +24,7 @@ class Text extends Component {
             className="featured_number"
             style={{
               opacity,
-              transform: `translate(260px,270px) rotateY(${rotate}deg)`
+              transform: `translate(260px,220px) rotateY(${rotate}deg)`
             }}
           >
             Cz
@@ -40,12 +40,12 @@ class Text extends Component {
       start={{
         opacity: 0,
         x: 503,
-        y: 450
+        y: 350
       }}
       enter={{
         opacity: [1],
         x: [273],
-        y: [450],
+        y: [350],
         timing: { duration: 500, ease: easePolyOut }
       }}
     >
@@ -71,12 +71,12 @@ class Text extends Component {
       start={{
         opacity: 0,
         x: 503,
-        y: 586
+        y: 486
       }}
       enter={{
         opacity: [1],
         x: [273],
-        y: [586],
+        y: [486],
         timing: { delay: 300, duration: 500, ease: easePolyOut }
       }}
     >
