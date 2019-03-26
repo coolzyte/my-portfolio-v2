@@ -4,8 +4,8 @@ import Skill from "../Skill";
 import PortfolioList from "../Portfolio/PortfolioList";
 import { projects } from "../Portfolio/projects";
 import NewsLetter from "../Newsletter/Newsletter";
-import Testimonial from "../Testimonial/Testimonial";
-import { testimonialsContent } from "../Testimonial/testimonialContent";
+import Testimonial from "../home/Testimonial";
+import { testimonialsContent } from "./Testimonial/testimonialContent";
 
 const Home = () => {
   return (

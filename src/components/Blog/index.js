@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-import BlogList from "../Blog/BlogList";
-import { blogContent } from "../Blog/blogContent";
+import BlogList from "./BlogList";
+import { blogContent } from "./blogContent";
 
 const blog = () => {
   return (

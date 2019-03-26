@@ -1,6 +1,6 @@
 import React from "react";
-import MetaBox from "../Blog/MetaBox";
-import classes from "../Blog/BlogCard.module.css";
+import MetaBox from "./MetaBox";
+import classes from "./BlogCard.module.css";
 
 const BlogCard = ({ pic, title, desc }) => (
   <div class={classes.Item}>

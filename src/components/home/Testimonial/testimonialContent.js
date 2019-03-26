@@ -1,5 +1,5 @@
-import T1 from "../../assets/images/testimonial/t1.png";
-import T2 from "../../assets/images/testimonial/t2.png";
+import T1 from "../../../assets/images/testimonial/t1.png";
+import T2 from "../../../assets/images/testimonial/t2.png";
 
 export const testimonialsContent = [
   {

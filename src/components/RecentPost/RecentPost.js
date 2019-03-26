@@ -1,8 +1,8 @@
 import React from "react";
-import B8 from "../../assets/images/blog/b8.png";
-import B16 from "../../assets/images/blog/b16.jpg";
-import B6 from "../../assets/images/blog/b6.png";
-import B7 from "../../assets/images/blog/b7.png";
+import B8 from "../../assets/images/blogPic/b8.png";
+import B16 from "../../assets/images/blogPic/b16.jpg";
+import B6 from "../../assets/images/blogPic/b6.png";
+import B7 from "../../assets/images/blogPic/b7.png";
 import Aux from "../../hoc/Aux";
 import classes from "./RecentPost.module.css";
 

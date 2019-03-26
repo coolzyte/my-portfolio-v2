@@ -4,7 +4,7 @@
 }
 
 .bgImage {
-  background-image: url("../../assets/images/testimonial/bg.jpg");
+  background-image: url("../../../assets/images/testimonial/bg.jpg");
   position: relative;
   z-index: -1;
 }

@@ -3,7 +3,7 @@ import classes from "./MetaBox.module.css";
 
 const metabox = () => {
   return (
-    <ul className={classes.MetaBox}>
+    <ul className={classes.Meta}>
       <li className="blog__meta-date">
         <span>
           <i className="fa fa-calendar" aria-hidden="true" />
